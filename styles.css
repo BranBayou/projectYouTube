@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainContent{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.headerContainer{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoArea{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.humburgermenu{
+    padding-left: 30px;
+    
+}
+.logoImg{
+    height: 80px;
+}
+.searchBar{
+    display: flex;
+    align-items: center;
+}
+.searchFiled{
+    margin: 0;
+    padding: 10px;
+    width: 600px; 
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;  
+}
+.serarchArea{
+    display: flex;
+    flex-direction: row;
+}
+.searchBtn{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding-right: 15px;
+    margin-right: 10px;
+}
+.avatar{
+    height: 40px;
+    border-radius: 100px;
+    overflow: hidden;
+}
+.searchMic{
+    margin-left: 10px;
+    padding-left: 15px;
+    border-radius: 60%;
+    overflow: hidden;
+    background-color: #f0f0f0;
+
+}
+.profileArea{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.avatar{
+    padding: 20px;
+}
+.notification{
+    padding-left: 20px;
+}
+.sideNavbar{
+   
+    width: 17%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+ul li a{
+    margin: 20px;
+    text-decoration: none;
+    color: #000000;
+
+}
+div ul li:hover{
+    background-color: #9c9c9c;
+    background-size: 200px 100px;
+    cursor: pointer;
+}
+ul li a i{
+    margin: 20px;
+    text-decoration: none;
+    color: #000000;
+}
+.home{
+    border-bottom-style: ridge;
+}
+.library{
+    border-bottom-style: ridge;
+}
+.susbLabael{
+    padding-left: 40px;
+    font-weight: 100;
+}
+
+.tags{
+    background-color: #f0f0f0;
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.firstRow{
+    display: flex;
+    flex-direction: row;
+}
+.secondRow{
+    display: flex;
+    flex-direction: row;
+}
+.videoinfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.vid:hover{
+    width: 350px;
+    height: 200px;
+
+}
+.videoDetailLogo{
+    height: 40px;
+    border-radius: 200px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.videoDetail{
+    display: flex;
+    flex-direction: column;
+    
+}
+.video{
+    padding-left: 15px;    
+}
+.video a{
+    text-decoration: none;
+    color: #000000;   
+}
